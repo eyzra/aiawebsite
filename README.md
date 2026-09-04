@@ -28,14 +28,6 @@ The site links to a portal. It does not contain one. That is deliberate, and wor
 
 A working school portal needs accounts for every pupil, parent and teacher, a database of scores and payments, password resets, role permissions, and a server that stays up in August when results drop. That is an application with a running cost and someone responsible for it, not a page. Building one from scratch for three campuses would take months and would leave AIA maintaining software instead of teaching.
 
-Three routes, cheapest effort first.
-
-**Buy one.** Edves and SAFSMS are the established Nigerian platforms, and there are newer entrants. They give you result computation, report cards, fee tracking, parent logins and a mobile app on day one. Published Nigerian pricing for cloud school systems runs from around fifty thousand naira a year at the small end to several hundred thousand for larger schools, usually scaling with enrolment. You point the two portal links at the login page they give you and the job is done this term. This is what I would do.
-
-**Result checker only.** If all the school wants is for a parent to type a registration number and a scan card PIN and see a term's result, that is a small build, not a full portal. It needs a database and a bit of backend, and it can sit on the same domain. Weeks rather than months, and cheap to run.
-
-**Build the whole thing.** Custom portal, custom everything, and AIA owns the code. Months of work, real hosting costs, and a maintenance burden that never ends. Only worth it if the off-the-shelf platforms genuinely cannot fit how the school runs.
-
 ## Deploying
 
 The forms already work on Netlify with no setup.
